@@ -1,15 +1,24 @@
 /* Styles */
-* {
+body {
     background-color: bisque;
 }
 
 .main.header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
-    background-color: #1232FF;
+    background-color: #5d71f1;
     color: #444444;
     text-align: center;
     margin: 30px;
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    box-sizing: 33.3%;
+    border: pink solid 8px;
+    display: inline-block;
+    
+    
+    
 }
 .main {
     font-weight: bold;
@@ -23,7 +32,30 @@ img {
         margin-right: auto;
         width: 300px;
       }
+      
+      .recipes {
+          border: solid black 1px;
       }
-    
-}
+     .italics {
+        font-style: italic;
+     }
+     .recipe-list a {
+        
+         background-color: rgb(179, 57, 81);
+         color: #fff;
+         text-decoration: none;
+         padding: 1em 2em;
+         display: inline-block;
+         height: 1.5em;
+         width: 80px;
+              }      
+    .recipe-list a:hover {
+        
+        background-color: rgb(66, 28, 40);
+        color: #fff;
+    }
+    .recipe-list li{
+        display: inline-block;
+        text-align: center;
+    }
 
